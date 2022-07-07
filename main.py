@@ -10,24 +10,24 @@ discord_token = os.environ['discord_token']
 
 #Here is where we will store information for our twitter developer api keys
 #this will be twitter bot 1
-access_token_secret1 = os.environ['access_token_secret']
-access_token1 = os.environ['access_token']
-consumer_secret1 = os.environ['consumer_secret']
-consumer_key1 = os.environ['consumer_key']
+access_token_secret1 = os.environ['access_token_secret1']
+access_token1 = os.environ['access_token1']
+consumer_secret1 = os.environ['consumer_secret1']
+consumer_key1 = os.environ['consumer_key1']
 
 #Here is where we will store information for our twitter developer api keys
 #this will be twitter bot 2
-access_token_secret2 = os.environ['access_token_secret']
-access_token2 = os.environ['access_token']
-consumer_secret2 = os.environ['consumer_secret']
-consumer_key2 = os.environ['consumer_key']
+access_token_secret2 = os.environ['access_token_secret2']
+access_token2 = os.environ['access_token2']
+consumer_secret2 = os.environ['consumer_secret2']
+consumer_key2 = os.environ['consumer_key2']
 
 #Here is where we will store information for our twitter developer api keys
 #this will be twitter bot 3
-access_token_secret3 = os.environ['access_token_secret']
-access_token3 = os.environ['access_token']
-consumer_secret3 = os.environ['consumer_secret']
-consumer_key3 = os.environ['consumer_key']
+access_token_secret3 = os.environ['access_token_secret3']
+access_token3 = os.environ['access_token3']
+consumer_secret3 = os.environ['consumer_secret3']
+consumer_key3 = os.environ['consumer_key3']
 
 #This is where we we auth twitter api keys via tweepy
 auth=tweepy.OAuthHandler(consumer_key1,consumer_secret1)
