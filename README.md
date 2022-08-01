@@ -6,7 +6,7 @@ Found a few other options but not what i was looking for, so here i present ***D
 
 You can set mutiple twitter bots to run, or just 1
 
-TWITTER DEV ACCOOUNT MUST HAVE ELEVATED ACCES TO POST FROM A AUTOMATED BOT!!!
+TWITTER DEV ACCOOUNT MUST HAVE ELEVATED ACCESS TO POST FROM A AUTOMATED BOT!!!
 
 
 
