@@ -9,6 +9,7 @@ discord_token = os.environ['discord_token']
 client=discord.Client()
 
 #here is where you will put information for your twitter developer api keys
+#this will be twitter bot 1
 access_token_secret1 = os.environ['access_token_secret']
 access_token1 = os.environ['access_token']
 consumer_secret1 = os.environ['consumer_secret']
@@ -21,9 +22,8 @@ auth.set_access_token(access_token1,access_token_secret1)
 api = tweepy.API(auth)
 
 # Channel IDs
-discord_channel_id1='000000000000000000'
-discord_channel_id2='000000000000000000'
-discord_channel_id3='000000000000000000'
+discord_channel_id1='0000000000000000000'
+discord_channel_id2='0000000000000000000'
 
 
 
@@ -48,22 +48,12 @@ async def on_message(message):
     channel = str(message.channel.id)
     # Channel ID 1
     if channel == discord_channel_id1:
-        api.update_status(
-            message.embeds[0].description + "\n" + message.embeds[0].image.url
-        )
+        api.update_status(message.embeds[0].description)
         print('Tweet posted from channel 1')
     # Channel ID 2
     if channel ==discord_channel_id2:
-        api.update_status(
-            message.embeds[0].description + "\n" + message.embeds[0].image.url
-        )
+        api.update_status(message.embeds[0].description)
         print('Tweet posted from channel 2')
-    # Channel ID 3
-    if channel ==discord_channel_id3:
-        api.update_status(
-            message.embeds[0].description + "\n" + message.embeds[0].image.url
-        )
-        print('Tweet posted from channel 3')
 
 # Initiate bot
 async def main_func():
