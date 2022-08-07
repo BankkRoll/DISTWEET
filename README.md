@@ -1,6 +1,6 @@
 # DISTWEET
 
-I made this bot is search of looking for a bot to autopost tweets upon a discord message, and no luck finding a good way besdies zapier with a limit and 15 minute request time.
+I made this bot is search of looking for a bot to autopost tweets upon a discord embeds, and no luck finding a good way besdies zapier with a limit and 15 minute request time.
 
 Found a few other options but not what i was looking for, so here i present ***DISTWEET***
 
